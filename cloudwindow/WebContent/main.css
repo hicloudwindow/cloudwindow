@@ -1,0 +1,184 @@
+/* html5doctor.com/html-5-reset-stylesheet/ */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,time,mark,audio,video { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; } 
+body { line-height:1; }
+ol,ul { list-style:none; }
+blockquote,q { quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse;border-spacing:0; }
+
+/*-  SELF-CLEARING FLOATS
+----------------------------------------------------------------------*/
+.mod:after,
+.section:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.mod,
+.section {
+	zoom: 1;
+}
+
+/*-  BASE STYLES
+----------------------------------------------------------------------*/
+body {
+	--background-color: #DCDBD9;
+	color: #303030;
+	font: normal 100%/1.5 Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;color: #2C2C2C;
+	font: normal 100% Cambria, Georgia, serif;
+}
+table {
+	font-size:inherit;
+	font: 100%;
+}
+select, input, textarea {
+	font: 99% sans-serif;
+}
+a {
+	-moz-transition: color 0.3s linear;
+	-o-transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+	transition: color 0.3s linear;
+	color: #D53232;
+	text-decoration: none;
+}
+a:hover {
+	color: #B52A2A;
+}
+input.text,
+input[type=text]
+textarea {
+	border: 1px solid #7C7C7C;
+	border-color: #7C7C7C #7C7C7C #C3C3C3 #C3C3C3;
+}
+p,
+ul,
+ol {
+	margin-bottom: 1em;
+}
+/*-  MAIN
+----------------------------------------------------------------------*/
+/*
+	Outsets
+*/
+
+#page {
+	width: 90%; /* 960 */
+	margin: 36px auto;
+}
+
+h1 {
+	color: #747474;
+	font: bold 0.5em Calibri, Optima, Arial, sans-serif;	/* 24px/16px [기본 16px 기준] */
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+h1 a {
+	color: #747474;
+	font-size: 2.5em;	/* h1 1.5em 기준 */
+	text-decoration: none;
+}
+
+.blog {
+	margin: 0 auto 53px;
+	width: 93.75%; /* 900/960 */
+}
+
+.blog .main {
+	float: left;
+	width: 62.89%;
+}
+
+.blog .other {
+	float: right;
+	width: 36.78%;
+}
+
+.lede {
+	padding: 0.8em 5.33%;	/* 48/900 */
+}
+
+.other {
+	float: right;
+	width: 36.78%;			/* 331/900 */
+}
+.other .section {
+	margin: 40px auto;
+	width: 69.79%;		/* 231/331 */
+}
+.other h1,
+.member li {
+	border-bottom: 1px solid #B8B7B5;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.other h1 {
+	clear: both;
+	font-size: 0.69em;			/* 11/16 */
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	padding-bottom: 1em;
+}
+.member h2 {
+	line-height: 1.1;
+}
+.member h2 a,
+.member p {
+	padding-left: 23px;
+}
+.member li {
+	padding: 0.35em 0;
+}
+.member p {
+	color: #666;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+.article {
+	padding: 40px 8.48%; /* 48/566 */
+}
+
+.date {
+	background: rgba(0, 0, 0, 0.6);
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	float: left;
+	font: normal 0.857142857em/1 "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;	/* 12px / 14px */
+	letter-spacing: 0.075em;
+	margin: -2.25em 0 0 -17.0886076%;		/* 81/474 */
+	padding: 0.75em 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 #000;
+	width: 14.556962%;				/* 69/474 */
+}
+.date span {
+	display: block;
+	font-size: 3.83333333em;			/* 46/12 */
+}
+
+.title {
+	font: bold 1.07em "pill-gothic-600mg-1", "pill-gothic-600mg-2", Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;		/* 15px / 14px */
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+.intro {
+	font-size: 1.14em;		/* 16/14 */
+}
+
+
+
+#footer {
+	text-align: center;
+	font-size: 0.8125em;	/* 13/16 */
+}
